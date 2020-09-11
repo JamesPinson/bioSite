@@ -1,9 +1,38 @@
-
+html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+li a:hover{
+    background-color: #111111;
+}
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Bold', sans-serif;
     font-size: 68px;
     font-weight: 900;
     text-align: center;
+    color: #333333;
 
 }
 h2{
@@ -23,18 +52,21 @@ p{
     color: green;
 }
 div {
-    border: 6px solid black;
+    border: 6px solid #333333;
     border-radius: 40px;
     margin: 5;
     padding: 15px;
 }
-div.ex1 {
+#header{
+border: none;
+}
+#section1 {
     border-color: green;
 }
-div.ex2 {
+#section3 {
     border-color: blue;
 }
-div.ex3{
+#section5{
     border-color: red;
 }
 p.one {
@@ -82,7 +114,7 @@ p.six{
     overflow: auto;
 }
 img {
-    border: 5px black;
+    border: 5px #333333;
     border-style: ridge;
 }
 #pokerchips{
@@ -97,4 +129,10 @@ img {
 }
 #picture3{
     border-color: red;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #333333;
+    color:white
 }
