@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    color: rgba(0, 0, 37, .75);
 }
 
 ul {
@@ -165,8 +164,8 @@ img {
 footer {
     text-align: center;
     padding: 1px;
-    background-color: #333333;
-    color: white;
+    background-color: white;
+    color: #333333;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
