@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
     color: rgba(0, 0, 37, .75);
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,10 +14,12 @@ ul {
     top: 0;
     width: 100%;
 }
+
 li{
     float: left;
     border-right: 1px solid #bbb;
 }
+
 li a {
     display: block;
     color: white;
@@ -26,26 +29,30 @@ li a {
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 li a:hover{
     background-color: #111111;
 }
+
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Bold', sans-serif;
     font-size: 68px;
     font-weight: 900;
     text-align: center;
     color: #333333;
-
 }
+
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 48px;
     font-weight: 800;
 }
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
+
 #basic {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 48px;
@@ -53,85 +60,108 @@ p{
     text-align: right;
     color: green;
 }
+
 div {
     border: 6px solid #333333;
     border-radius: 40px;
     margin: 5;
     padding: 15px;
 }
+
 #header{
 border: none;
 }
+
 #section1 {
     border-color: green;
 }
+
 #section3 {
     border-color: blue;
 }
+
 #section5{
     border-color: red;
 }
+
 p.one {
     text-align: right;
     overflow: auto;
 }
+
 p.image1{
     text-align: left;
 }
+
 #airforce {
     text-align: left;
 }
+
 p.two{
     text-align: left;
     overflow:auto
 }
+
 #career{
     text-align: right;
     color: blue;
 }
+
 p.three{
     text-align: right;
     overflow: auto;
 }
+
 #passion{
     text-align: left;
 }
+
 p.four{
     text-align: left;
     overflow: auto;
 }
+
 #impact{
     text-align: right;
     color: red;
 }
+
 p.five{
     text-align: right;
     overflow: auto;
 }
+
 #legacy{
     text-align: left;
 }
+
 p.six{
     text-align: left;
     overflow: auto;
 }
+
 img {
     border: 5px #333333;
     border-style: ridge;
 }
+
 #pokerchips{
     border: 0px;
     text-align: center;
 }
+
 #picture1{
     border-color: green;
 }
+
 #picture2{
     border-color: blue;
 }
+
 #picture3{
     border-color: red;
 }
+
 footer {
     text-align: center;
     padding: 1px;
@@ -139,6 +169,7 @@ footer {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 a{
     text-decoration: none;
     color: red;
