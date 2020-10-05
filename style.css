@@ -12,6 +12,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 10px 10px grey;
 }
 
 li{
@@ -30,7 +31,7 @@ li a {
 }
 
 li a:hover{
-    background-color: #111111;
+    background-color: grey;
 }
 
 h1 {
@@ -174,4 +175,8 @@ footer {
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
